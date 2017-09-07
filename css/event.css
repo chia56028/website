@@ -1,0 +1,59 @@
+body {
+	background: #FFECF5 /* url('../img/background.png') */;
+	margin: 5%;
+}
+
+header {
+	color: #5F1854;
+	margin: 3%;
+	text-align: center;
+}
+
+.row {
+	margin: 3%;
+}
+
+.block {
+	background: #EB89B5;
+	height: 20px;
+}
+
+/* ================= hover ================ */
+.opac {
+	background: #FCCDE2;
+	width: 300px;
+	height: 210px;
+	padding: 5px;
+	margin: 0 auto;
+}
+.opac:hover img {
+	opacity: 0.2;
+}
+
+.opac:hover .descri {
+	color: #3C3352;
+	z-index: 1;
+}
+
+.descri {
+	position: absolute;
+	padding: 10px;
+	z-index: -1;
+}
+
+img {
+	width: 290px;
+	height: 200px;
+	z-index: 1;
+}
+
+/* =============== link color ============= */
+
+a {
+	color: #FFF;
+}
+
+a:hover {
+	color: #0092CA;
+}
+

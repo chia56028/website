@@ -1,0 +1,36 @@
+body {
+	background: #EEEEEE;
+	/* background-image: url('http://img2.114pifa.com/2298/Ejf8kLKLu_1398377751.jpg'); */
+	margin: 3%;
+}
+
+header {
+	/* text-align: center; */
+	padding: 2%;
+	color: #323232;
+}
+
+div.s1 {
+	background: #EBE9F6;
+	margin: 2%;
+	padding: 3%;
+}
+
+div.s2 {
+	background: #FFF6FB;
+	margin: 2%;
+	margin-bottom: 5%; 
+	padding: 3%;
+}
+
+div.s3 {
+	background: #FFF6FB;
+	margin: 2%;
+	padding: 3%;
+}
+
+div.block {
+	background: #D6E6F2;
+	color: #4797B1;
+	color: #31588A;
+}
