@@ -16,11 +16,43 @@ header {
 
 .block {
 	background: #FAFAFA;
-	margin: 2%;
-	padding: 3%;
+	margin: 5px;
+	padding: 20px;
 }
 
 .spa {
 	height: 30px;
+}
+
+/* ============== Skill Bar ===============  */
+
+.skill {
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 8px;
+	align-items: center;
+	transition-duration: 0.3s;
+}
+
+.bar_container {
+	background: #cdcdcd;
+	height: 2px;
+	position: relative;
+	top: 50%;
+}
+
+.bar {
+	position: relative;
+	background: #8d9e78;
+	height: 4px;
+	top: -1px;
+	width: 0%;
 }
 
